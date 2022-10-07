@@ -1,0 +1,38 @@
+body{
+    background-color: skyblue;
+    width: 100%;
+}
+
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 25%;
+}
+
+label{
+    border-radius: 100px;
+}
+
+input{
+    border-radius: 8px;
+    height: 25;
+    background-color: white;
+}
+
+select{
+    height: 25px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+option{
+    height: 25px;
+    border-radius: 30px;
+    background-color: white;
+}
+
+button{
+    background-color: beige;
+    border-radius: 20px;
+}

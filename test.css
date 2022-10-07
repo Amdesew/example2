@@ -1,0 +1,67 @@
+.center{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.box{
+	width: 370px;
+	height: 520px;
+	border-radius: 15px;
+	box-shadow: 7px 7px skyblue;
+	border: solid 5px white;
+	background-color: white;
+}
+
+body{
+	background-color: deepskyblue;
+}
+
+h2{
+	margin: 0;
+	color: gray;
+	font-size: 30px;
+	margin-left: -235;
+	font-family: arial;
+}
+
+h2:hover{
+	color: DodgerBlue;
+}
+
+input{
+	width: 320px;
+	height: 35px;
+	opacity: 40%;
+	margin-left: -20;
+	border-radius: 20px;
+	border-color: lightgray;
+	animation-name: appear;
+}
+
+input:hover{
+	opacity: 100%;
+	transition: opacity 2s ease-in 0s both;
+}
+
+p{
+	font-size: 13px;
+	font-family: arial;
+	margin-right: -185;
+	color: dodgerblue;
+}
+
+button{
+	height: 40px;
+	width: 300px;
+	border-color: white;
+	border-radius: 50px;
+	box-shadow: 1px 5px lightgray;
+	background-color: DarkTurquoise;
+}
+
+label{
+	color: dodgerblue;
+	font-family: arial;
+	text-shadow: 0px 1px;
+}

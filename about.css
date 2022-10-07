@@ -1,0 +1,66 @@
+body{
+	background-color: skyblue;
+}
+
+.center{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+text:hover{
+	letter-spacing: 3px;
+	transition: all;
+	transition-duration: 2s;
+}
+
+h1{
+	height: 650px;
+	width: 550px;
+	background: white;
+	border-radius: 35px;
+	font-family: arial;
+	font-size: 28px;
+}
+
+h1:hover{
+	font-size: 29px;
+	color: darkcyan;
+	letter-spacing: 0.02px;
+	transition-duration: 3s;
+}
+
+img{
+	border-radius: 45px;
+}
+
+img:hover{
+	height: 90px;
+	animation: disappear 1s ease-out 0s both;
+}
+
+label{
+	border: solid 2px skyblue;
+	border-width: 8px;
+	width: 515px;
+	height: 365px;
+	line-height: 50px;
+	border-radius: 40px;
+	font-size: 20px;
+}
+
+label:hover{
+	font-size: 20.2px;
+	color: darkcyan;
+	transition-duration: 2s;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+@keyframes disappear{
+	from {opacity: 100%}
+	to {opacity: 50%}
+}

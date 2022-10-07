@@ -1,0 +1,28 @@
+body{
+    background-color: skyblue;
+    width: 100%;
+}
+
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 80%;
+}
+
+label{
+    font-family: arial;
+    font-size:20px;
+    text-align: center;
+}
+
+iframe{
+    width: 20px;
+    height: 330px;
+}
+
+a{
+    text-align: center;
+    color: red;
+    text-decoration: none;
+}

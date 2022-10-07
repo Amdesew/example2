@@ -1,0 +1,28 @@
+body{
+    background-color: skyblue;
+}
+
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+input{
+    border-radius: 10px;
+    height: 35px;
+    border-color: white;
+}
+
+button{
+    border-radius: 30px;
+    height: 45px;
+    width: 15px;
+    border-color: lightcyan;
+    background-color: lightcyan;
+}
+
+h3{
+    font-family: arial;
+}

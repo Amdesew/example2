@@ -1,0 +1,49 @@
+body{
+    background-color:  skyBlue;
+}
+
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+}
+
+.nav:hover{
+    box-shadow: 1px 5px 5px white;
+}
+
+h3{
+    height: 43px;
+    background-color: CadetBlue;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h3:hover{
+    box-shadow: 5px 5px 5px white;
+}
+
+button{
+    display: block;
+    margin-right: 52px;
+    color: black;
+    background-color: skyblue;
+    border-radius: 100px;
+    height: 45px;
+    border-color: skyblue;
+    width:  680px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.display{
+    responsive: true;
+    print: true;
+    property: display;
+    class: d;
+    values: inline inline-block block grid table table-row table-cell flex inline-flex none;
+}

@@ -1,0 +1,41 @@
+.center{
+	display: block;
+	margin: auto;
+	text-align: center;
+}
+
+.box{	
+	width: 550px;
+	height: 650px;
+	border-radius: 25px;
+	border: solid 10px white;
+	background-color: whitesmoke;
+}
+
+.select{
+	width: 400px;
+	height: 40px;
+}
+
+body{
+	background-color: skyblue;
+}
+
+h1{
+	font-size: 45px;
+	font-family: arial;
+}
+
+
+label{
+	font-size: 40px;
+	font-family: arial;
+	font-weight: bold;
+}
+
+
+option{
+	width: 700px;
+	font-size: 20px;
+	font-family: arial;
+}
